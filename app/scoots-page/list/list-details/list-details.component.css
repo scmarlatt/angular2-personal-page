@@ -1,0 +1,26 @@
+.list-detail-wrapper{
+	width: 80%;
+}
+
+.list-detail-left{
+	padding: 0px 20px;
+	display:inline-block;
+}
+
+.list-detail-right{
+	padding: 20px 20px;
+	display:inline-block;
+}
+
+.list-image{
+	display:block;
+    width: 100%;
+    height: auto;
+    border:none;
+    transform:scale(1);
+    transition:all 1s;	
+}
+
+.list-detail-url a:hover{
+	  text-decoration: none;
+}

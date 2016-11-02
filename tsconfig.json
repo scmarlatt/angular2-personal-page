@@ -1,12 +1,44 @@
 {
   "compilerOptions": {
-    "target": "es5",
-    "module": "commonjs",
-    "moduleResolution": "node",
-    "sourceMap": true,
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
-    "removeComments": false,
-    "noImplicitAny": false
-  }
+    "module": "system",
+    "moduleResolution": "node",
+    "outDir": "public/dist/js",
+    "sourceMap": true,
+    "target": "ES5"
+  },
+  "exclude": [
+    "node_modules"
+  ],
+  "filesGlob": [
+    "app/**/*.ts",
+    "typings/*.d.ts"
+  ],
+  "files": [
+    "typings/index.d.ts",
+    "app/js/components/app.component.ts",
+    "app/js/app.module.ts",
+    "app/js/app.routing.ts",
+    "app/js/main.ts",
+    "app/js/rxjs-operators.ts",
+    "app/js/components/scoots-page.component.ts",
+    "app/js/components/about.component.ts",
+    "app/js/components/models/blog-post.ts",
+    "app/js/components/blog.component.ts",
+    "app/js/services/blog.service.ts",
+    "app/js/components/blog-details.component.ts",
+    "app/js/components/list.component.ts",
+    "app/js/services/list.service.ts",
+    "app/js/components/list-details.component.ts",
+    "app/js/components/models/blog-posts.ts",
+    "app/js/components/models/list-post.ts",
+    "app/js/components/models/mock-list.ts",
+    "app/js/templates/about.html.ts",
+    "app/js/templates/blog-details.html.ts",
+    "app/js/templates/blog.html.ts",
+    "app/js/templates/list-details.html.ts",
+    "app/js/templates/list.html.ts",
+    "app/js/templates/scoots-page.html.ts"
+  ]
 }

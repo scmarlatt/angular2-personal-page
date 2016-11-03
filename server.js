@@ -8,7 +8,7 @@ var app = express();
 
 app.set('port', (process.env.PORT || 8080));
 app.use(bodyParser.json()); // for parsing application/json
-app.use(express.static('/Users/scottmarlatt/Documents/Code/angular2.0/angular2-personal-page/public'));
+app.use(express.static(__dirname + '/public'));
 
 app.use(function(req, res, next) {
   res.header("Access-Control-Allow-Origin", "*");
@@ -17,7 +17,7 @@ app.use(function(req, res, next) {
 });
 
 app.get('*', function(req,res) {
-    res.sendFile(path.resolve('/Users/scottmarlatt/Documents/Code/angular2.0/angular2-personal-page/app/html/index.html'));
+    res.sendFile(__dirname + '/app/html/index.html');
 });
 /*
 app.get('*', function(req, res) {

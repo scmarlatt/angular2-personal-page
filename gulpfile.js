@@ -203,10 +203,10 @@ gulp.task('watch:app', function() {
 
 // Run Express, auto rebuild and restart on src changes
 gulp.task('serve', ['watch:app'], function () {
-  var server = liveServer.new('server/server.js');
+  var server = liveServer.new('server.js');
   server.start();
 
-  gulp.watch('server/server.js', server.start.bind(server));
+  gulp.watch('server.js', server.start.bind(server));
 });
 
 

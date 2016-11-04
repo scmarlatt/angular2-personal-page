@@ -10,6 +10,7 @@ import { AboutComponent } from './components/about.component';
 import { ListComponent } from './components/list.component';
 import { ListService } from './services/list.service';
 import { ListDetailsComponent } from './components/list-details.component';
+import { LandingComponent } from './components/landing.component';
 import { BlogDetailsComponent } from './components/blog-details.component';
 import { ScootsPageComponent } from './components/scoots-page.component';
 import { BlogComponent } from './components/blog.component';
@@ -24,7 +25,8 @@ import { routing }       from './app.routing';
   				  BlogComponent, 
   				  ListComponent, 
   				  ListDetailsComponent, 
-  				  BlogDetailsComponent
+  				  BlogDetailsComponent,
+            LandingComponent
   				 ],
   providers:	[ ListService, BlogService ], 
   bootstrap:    [ ScootsPageComponent ]

@@ -1,11 +1,28 @@
 export const htmlTemplate = `
-<ul id="blog-list-wrapper">
-	<li *ngFor="let post of blogPostList" (click)="onSelect(post)">
-		<div class="blog-list-item">
-			<img src="{{post.img}}" class="list-image">
-			<span class="list-overlay"></span>
-			<span class="list-title">{{post.title}}</span>
-		</div>
-	</li>
-</ul>
+<div class="container">
+	Coming Soon
+</div>
 `;
+
+/*
+<div class="row">
+		<nav class="scoot-nav pull-right">
+			<ul>
+				<li><a href="blog">blog</a></li>
+				<li><a href="about">about</a></li>
+				<li><a href="list">list</a></li>
+			</ul>
+		</nav>
+	</div>
+	<div class="row">
+		<ul id="blog-list-wrapper">
+			<li *ngFor="let post of blogPostList" (click)="onSelect(post)">
+				<div class="blog-list-item">
+					<img src="{{post.img}}" class="list-image">
+					<span class="list-overlay"></span>
+					<span class="list-title">{{post.title}}</span>
+				</div>
+			</li>
+		</ul>
+	</div>
+	*/

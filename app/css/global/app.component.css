@@ -2,9 +2,15 @@ body{
   font-family: 'Lato', sans-serif;
 }
 
+a, a:visited{
+  text-decoration: none;
+  color: #1a002e;
+}
+
 a:hover{
   text-decoration: none;
 }
+
 h1 {
   font-size: 1.2em;
   color: #999;
@@ -14,6 +20,33 @@ h2 {
   font-size: 2em;
   margin-top: 0;
   padding-top: 0;
+}
+
+.scoot-nav{
+  margin-top: 10px;
+}
+
+.scoot-nav li{
+  color: #1a002e;
+  display: inline;
+  font-size: 18px;
+  margin: 0px 10px 0px 10px;
+}
+
+.scoot-nav a:link, a:visited {
+    color: #1a002e;
+}
+
+.scoot-nav a:hover{
+    color: #a0a4b6;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.scoot-nav li:hover{
+  color: #a0a4b6;
+  text-decoration: none;
+  cursor: pointer;
 }/*
 nav a {
   padding: 5px 10px;

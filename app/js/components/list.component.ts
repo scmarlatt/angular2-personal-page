@@ -23,7 +23,7 @@ export class ListComponent {
 	}
 
 	onSelect(ListPost): void{
-		this.router.navigate(['scoot_v1/list/', ListPost.id]);
+		this.router.navigate(['/list', ListPost.id]);
 	};
 
 	ngOnInit(): void {

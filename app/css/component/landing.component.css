@@ -1,0 +1,24 @@
+.landing-nav{
+	text-align: center;
+	padding-top: 48px;
+	padding-bottom: 48px;
+	margin: auto;
+}
+
+.landing-nav a{
+	font-size: 96px;
+	font-weight: bold;
+	color: #1a002e;
+	margin-top: 24px;
+	margin-bottom: 24px;
+}
+
+.landing-nav a:link, a:visited {
+    color: #1a002e;
+}
+
+.landing-nav a:hover{
+    color: #a0a4b6;
+    text-decoration: none;
+    cursor: pointer;
+}

@@ -5,35 +5,36 @@ import { BlogDetailsComponent }	from './components/blog-details.component';
 import { AboutComponent }	from './components/about.component';
 import { ListComponent }	from './components/list.component';
 import { ListDetailsComponent }	from './components/list-details.component';
+import { LandingComponent }	from './components/landing.component';
 
 const appRoutes: Routes = [
 	{
-		path: 'scoot_v1/',
-		component: ListComponent //replace this later with landing block
+		path: 'scoot',
+		component: LandingComponent //replace this later with landing block
 	},
 	{
-		path: 'scoot_v1/list',
+		path: 'list',
 		component: ListComponent
 	},
 	{
-		path: 'scoot_v1/about',
+		path: 'about',
 		component: AboutComponent
 	},
 	{
-		path: 'scoot_v1/blog',
+		path: 'blog',
 		component: BlogComponent
 	},
 	{
-		path: 'scoot_v1/blog/:id',
+		path: 'blog/:id',
 		component: BlogDetailsComponent
 	},
 	{
-		path: 'scoot_v1/list/:id',
+		path: 'list/:id',
 		component: ListDetailsComponent
 	},
 	{
 		path: '',
-		redirectTo: 'scoot_v1/',
+		redirectTo: 'scoot',
 		pathMatch: 'full'
 	}
 ];

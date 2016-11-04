@@ -27,7 +27,7 @@ export class BlogComponent {
 	}
 
 	onSelect(BlogPost): void{
-		this.router.navigate(['scoot_v1/blog/', BlogPost.id]);
+		this.router.navigate(['/blog', BlogPost.id]);
 	};
 	
 	getBlogPostList(): void{

@@ -14,7 +14,7 @@ export const htmlTemplate = `
 		<div class="container list-detail-wrapper">
 			<div class="col-lg-6 col-md-6 col-sm-6 list-detail-left">
 				<header class="row list-detail-header">
-					<h2>{{selectedListItem.title}}</h2>
+					<h2>{{selectedListItem.title}} :: {{selectedListItem.date}}</h2>
 				</header>
 				<div class="row list-detail-body">
 					{{selectedListItem.body}}

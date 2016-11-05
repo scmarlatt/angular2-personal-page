@@ -1,12 +1,12 @@
 .about-wrapper{
-	width: 80%;
+	width: 70%;
 }
 
 .about-header h2{
-	font-size: 72px;
+	font-size: 48px;
 	font-weight: bold;
-	text-align: center;
-	margin: 0px 0px;
+	text-align: left;
+	margin: 48px 0px;
 	padding: 0px 0px;
 }
 
@@ -17,4 +17,22 @@
     margin: 0px 0px;
     padding: 0px 0px;
     transform:scale(.5);
+}
+
+.about-text{
+	font-size: 18px;
+}
+
+.about-text p{
+	margin-bottom: 12px;
+}
+
+.about-wrapper a:link, a:visited {
+    color: #1a002e;
+}
+
+.about-wrapper a:hover{
+    color: #a0a4b6;
+    text-decoration: none;
+    cursor: pointer;
 }

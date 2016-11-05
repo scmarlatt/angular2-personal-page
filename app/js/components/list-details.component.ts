@@ -28,6 +28,7 @@ export class ListDetailsComponent {
 		this.selectedListItem = {
 			id: -1,
 			title: "",
+			date: "",
 			img: "",
 			body: "",
 			url: "",

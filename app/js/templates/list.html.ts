@@ -15,7 +15,7 @@ export const htmlTemplate = `
 				<div class="want-list-item">
 					<img src="{{want.img}}" class="list-image">
 					<span class="list-overlay"></span>
-					<span class="list-title">{{want.title}}</span>
+					<span class="list-title">{{want.title}}<br>{{want.date}}</span>
 				</div>
 			</li>
 		</ul>

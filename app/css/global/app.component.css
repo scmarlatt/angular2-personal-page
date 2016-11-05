@@ -24,6 +24,25 @@ h2 {
   padding-top: 0;
 }
 
+.footer{
+  position: relative;
+  bottom: 12px;
+  text-align: center;
+  font-size: 12px;
+}
+
+.footer p{
+  font-weight: bold;
+}
+
+.footer .footer-ig{
+  font-size: 18px;
+}
+
+.global-nav{
+  margin-bottom: 48px;
+}
+
 .scoot-nav{
   margin-top: 10px;
 }
@@ -49,7 +68,8 @@ h2 {
   color: #a0a4b6;
   text-decoration: none;
   cursor: pointer;
-}/*
+}
+/*
 nav a {
   padding: 5px 10px;
   text-decoration: none;

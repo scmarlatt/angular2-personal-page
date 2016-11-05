@@ -1,6 +1,6 @@
 export const htmlTemplate = `
 <div class="container">
-	<div class="row">
+	<div class="row global-nav">
 		<nav class="scoot-nav pull-right">
 			<ul>
 				<li><a href="blog">blog</a></li>

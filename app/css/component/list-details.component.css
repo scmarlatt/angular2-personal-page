@@ -1,10 +1,15 @@
 .list-detail-wrapper{
+	margin-top: 48px;
 	width: 80%;
 }
 
 .list-detail-left{
 	padding: 0px 20px;
 	display:inline-block;
+}
+
+.list-detail-left .row{
+	margin-bottom: 12px;
 }
 
 .list-detail-right{

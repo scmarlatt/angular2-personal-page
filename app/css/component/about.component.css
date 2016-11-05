@@ -1,22 +1,32 @@
 .about-wrapper{
 	width: 70%;
+    margin: 48px auto; 
+}
+.about-wrapper a:link, a:visited {
+    color: #1a002e;
 }
 
-.about-header h2{
-	font-size: 48px;
+.about-wrapper a:hover{
+    color: #a0a4b6;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.about-wrapper h2{
+    display: inline-block;
+	font-size: 96px;
 	font-weight: bold;
 	text-align: left;
-	margin: 48px 0px;
-	padding: 0px 0px;
 }
 
-.about-image{
-    width: 100%;
+.about-wrapper img{
+    float: right;
+    border-radius: 50%;
+    max-width: 35%;
     height: auto;
-    border:none;
     margin: 0px 0px;
     padding: 0px 0px;
-    transform:scale(.5);
+    /*transform:scale(.5);*/
 }
 
 .about-text{

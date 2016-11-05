@@ -2,7 +2,7 @@ export const htmlTemplate = `
 <div class="container">
 	<div class="row">
 		<div class=".col-lg-4 pull-right">
-			<span class="scoot-title"><a href="">scoot_v.0.4</a></span> <!-- release . Major Front End change . Major Code change . Minor Chage -->
+			<span class="scoot-title"><a href="">scoot_v.0.5</a></span> <!-- release . Major Front End change . Major Code change . Minor Chage -->
 		</div>
 	</div>
 	<div class="row">

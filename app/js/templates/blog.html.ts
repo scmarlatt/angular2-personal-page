@@ -1,11 +1,6 @@
 export const htmlTemplate = `
 <div class="container">
-	Coming Soon
-</div>
-`;
-
-/*
-<div class="row">
+	<div class="row">
 		<nav class="scoot-nav pull-right">
 			<ul>
 				<li><a href="blog">blog</a></li>
@@ -25,4 +20,5 @@ export const htmlTemplate = `
 			</li>
 		</ul>
 	</div>
-	*/
+</div>
+`;

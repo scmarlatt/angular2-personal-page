@@ -10,7 +10,9 @@ a, a:visited{
 }
 
 a:hover{
+  color: #a0a4b6;
   text-decoration: none;
+  cursor: pointer;
 }
 
 h1 {
@@ -22,6 +24,10 @@ h2 {
   font-size: 2em;
   margin-top: 0;
   padding-top: 0;
+}
+
+.back{
+  font-size: 18px;
 }
 
 .footer{
@@ -54,6 +60,7 @@ h2 {
   margin: 0px 10px 0px 10px;
 }
 
+/*
 .scoot-nav a:link, a:visited {
     color: #1a002e;
 }
@@ -69,6 +76,7 @@ h2 {
   text-decoration: none;
   cursor: pointer;
 }
+*/
 /*
 nav a {
   padding: 5px 10px;

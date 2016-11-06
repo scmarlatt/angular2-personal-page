@@ -2,6 +2,7 @@
 	width: 80%;
     margin: 48px auto; 
 }
+/*
 .about-wrapper a:link, a:visited {
     color: #1a002e;
 }
@@ -11,6 +12,7 @@
     text-decoration: none;
     cursor: pointer;
 }
+*/
 
 .about-wrapper h2{
     display: inline-block;
@@ -37,12 +39,8 @@
 	margin-bottom: 12px;
 }
 
+/*
 .about-wrapper a:link, a:visited {
     color: #1a002e;
 }
-
-.about-wrapper a:hover{
-    color: #a0a4b6;
-    text-decoration: none;
-    cursor: pointer;
-}
+*/

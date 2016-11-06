@@ -2,7 +2,7 @@ export const htmlTemplate = `
 <div class="container">
 	<div class="row global-nav">
 		<nav class="scoot-nav">
-			<a href="list"><< back</a>
+			<a href="list" class="back"><< back</a>
 			<ul class="pull-right">
 				<li><a href="blog">blog</a></li>
 				<li><a href="about">about</a></li>

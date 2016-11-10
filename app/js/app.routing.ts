@@ -6,11 +6,16 @@ import { AboutComponent }	from './components/about.component';
 import { ListComponent }	from './components/list.component';
 import { ListDetailsComponent }	from './components/list-details.component';
 import { LandingComponent }	from './components/landing.component';
+import { ClimateComponent }	from './components/climate.component';
 
 const appRoutes: Routes = [
 	{
 		path: 'scoot',
 		component: LandingComponent //replace this later with landing block
+	},
+	{
+		path: 'climate',
+		component: ClimateComponent
 	},
 	{
 		path: 'list',

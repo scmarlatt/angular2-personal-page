@@ -3,9 +3,10 @@ export const htmlTemplate = `
 	<div class="row global-nav">
 		<nav class="scoot-nav pull-right">
 			<ul>
-				<li><a href="blog">blog</a></li>
+				<li><a href="climate">climate</a></li>
 				<li><a href="about">about</a></li>
-				<li><a href="list">list</a></li>
+				<li><a href="blog">blog</a></li>
+				<li><a href="list">stuff</a></li>
 			</ul>
 		</nav>
 	</div>

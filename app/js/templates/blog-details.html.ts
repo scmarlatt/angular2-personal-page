@@ -2,7 +2,7 @@ export const htmlTemplate = `
 <div class="container">
 	<div class="row global-nav">
 		<nav class="scoot-nav">
-			<a href="list" class="back"><< back</a>
+			<a href="blog" class="back"><< back</a>
 			<ul class="pull-right">
 				<li><a href="climate">climate</a></li>
 				<li><a href="about">about</a></li>
@@ -12,8 +12,8 @@ export const htmlTemplate = `
 		</nav>
 	</div>
 	<br>
-	<div class="row">
-	<h1>coming soon</h1>
+	<div class="row blog-details-wrapper">
+  		<ng-container *componentOutlet="selectedBlogPost.html; context: context"></ng-container>
 	</div>
 </div>
 `;

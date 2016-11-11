@@ -1,6 +1,7 @@
 export class BlogPost{
 	id: number;
 	title: string;
+	date: string;
 	img: string;
-	body: string;
+	html: string;
 }

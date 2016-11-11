@@ -4,6 +4,7 @@ var map = {
   'rxjs':                               'lib/js/rxjs',
   '@angular':                           'lib/js/@angular',
   'zone.js':                            'lib/js/zone.js/dist',
+  'angular2-component-outlet':          'lib/js/angular2-component-outlet'
 };
 
 // packages tells the System loader how to load when no filename and/or no extension
@@ -24,6 +25,7 @@ var packageNames = [
   '@angular/router',
   '@angular/testing',
   '@angular/upgrade',
+  'angular2-component-outlet'
 ];
 
 // add package entries for angular packages in the form '@angular/common': { main: 'index.js', defaultExtension: 'js' }

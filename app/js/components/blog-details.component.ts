@@ -2,6 +2,7 @@ import { Component, OnInit }	from '@angular/core';
 import { Router, ActivatedRoute, Params }		from '@angular/router';
 import { BlogPost }	from './models/blog-post';
 import { BlogService } from '../services/blog.service';
+import {ComponentOutlet, provideComponentOutletModule} from 'angular2-component-outlet';
 
 import { htmlTemplate }	from '../templates/blog-details.html';
 
@@ -16,7 +17,7 @@ export class BlogDetailsComponent {
 	viewingBlogPost: boolean = false;
 	selectedBlogPost: BlogPost;
 	id: number;
-
+	context = this;
 
 	constructor(
 		private route: ActivatedRoute,
@@ -28,8 +29,9 @@ export class BlogDetailsComponent {
 		this.selectedBlogPost = {
 			id: -1,
 			title: "",
+			date: "",
 			img: "",
-			body: "",
+			html: ""
 		};
 		this.route.params.forEach((params: Params) => {
 			this.id = +params['id']; // (+) converts string 'id' to a number

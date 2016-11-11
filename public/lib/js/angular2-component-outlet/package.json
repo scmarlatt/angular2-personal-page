@@ -1,0 +1,114 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "angular2-component-outlet",
+        "scope": null,
+        "escapedName": "angular2-component-outlet",
+        "name": "angular2-component-outlet",
+        "rawSpec": "",
+        "spec": "latest",
+        "type": "tag"
+      },
+      "/Users/scottmarlatt/Documents/Code/angular2.0/angular2-personal-page"
+    ]
+  ],
+  "_from": "angular2-component-outlet@latest",
+  "_id": "angular2-component-outlet@3.0.1",
+  "_inCache": true,
+  "_location": "/angular2-component-outlet",
+  "_nodeVersion": "6.7.0",
+  "_npmOperationalInternal": {
+    "host": "packages-12-west.internal.npmjs.com",
+    "tmp": "tmp/angular2-component-outlet-3.0.1.tgz_1476167941998_0.7157863955944777"
+  },
+  "_npmUser": {
+    "name": "laco0416",
+    "email": "laco0416@gmail.com"
+  },
+  "_npmVersion": "3.10.3",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "angular2-component-outlet",
+    "scope": null,
+    "escapedName": "angular2-component-outlet",
+    "name": "angular2-component-outlet",
+    "rawSpec": "",
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/angular2-component-outlet/-/angular2-component-outlet-3.0.1.tgz",
+  "_shasum": "54260ccae64b5a433711a3c778185b22febebba4",
+  "_shrinkwrap": null,
+  "_spec": "angular2-component-outlet",
+  "_where": "/Users/scottmarlatt/Documents/Code/angular2.0/angular2-personal-page",
+  "author": {
+    "name": "laco",
+    "email": "laco0416+github@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/laco0416/angular2-component-outlet/issues"
+  },
+  "dependencies": {},
+  "description": "Angular2 Component Outlet",
+  "devDependencies": {
+    "@angular/common": "^2.0.0",
+    "@angular/compiler": "^2.0.0",
+    "@angular/compiler-cli": "^0.6.2",
+    "@angular/core": "^2.0.0",
+    "@angular/platform-browser": "^2.0.0",
+    "@angular/platform-browser-dynamic": "^2.0.0",
+    "@angular/platform-server": "^2.0.0",
+    "@types/jasmine": "^2.2.33",
+    "core-js": "^2.4.1",
+    "jasmine": "^2.5.0",
+    "karma": "1.2.0",
+    "karma-chrome-launcher": "^2.0.0",
+    "karma-cli": "^1.0.1",
+    "karma-jasmine": "^1.0.2",
+    "rxjs": "^5.0.0-beta.12",
+    "systemjs": "^0.19.37",
+    "typescript": "^2.0.2",
+    "zone.js": "^0.6.21"
+  },
+  "directories": {},
+  "dist": {
+    "shasum": "54260ccae64b5a433711a3c778185b22febebba4",
+    "tarball": "https://registry.npmjs.org/angular2-component-outlet/-/angular2-component-outlet-3.0.1.tgz"
+  },
+  "gitHead": "bcbfde2fc8990a22981a5050bd16b1c16668d5c6",
+  "homepage": "https://github.com/laco0416/angular2-component-outlet#readme",
+  "license": "MIT",
+  "main": "index.js",
+  "maintainers": [
+    {
+      "name": "laco0416",
+      "email": "laco0416@gmail.com"
+    }
+  ],
+  "name": "angular2-component-outlet",
+  "optionalDependencies": {},
+  "peerDependencies": {
+    "@angular/compiler": "^2.0.0",
+    "@angular/core": "^2.0.0",
+    "@angular/platform-browser-dynamic": "^2.0.0"
+  },
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/laco0416/angular2-component-outlet.git"
+  },
+  "scripts": {
+    "build": "npm run ngc",
+    "integrationtest": "npm run ngc:integrationtest",
+    "ngc": "ngc -p .",
+    "ngc:integrationtest": "ngc -p integrationtest",
+    "prepublish": "npm test",
+    "test": "npm run ngc && karma start karma.conf.js && npm run integrationtest"
+  },
+  "version": "3.0.1"
+}

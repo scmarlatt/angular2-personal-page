@@ -14,7 +14,7 @@ export const htmlTemplate = `
 		<div class="container climate-wrapper">
 			<div class="row">
 				<h2>Past Due</h2>
-				<h3>Nov. 9, 2016 :: 8:56 PM</h3>
+				<h3>Nov. 9, 2016</h3>
 				<div class="climate-text">
 					<p>In light of recent events, I can no longer remain silent. My belief in this nation's ability to help tackle the most daunting but important challenge our species has ever faced just vanished overnight. Rapid climate change is a real thing. It has long been time for all of us to take action, but that doesn't mean it's too late for those of us who haven't taken action yet, to take action.</p>
 					<p>We are on the brink of having caused irreparable damage to our planet, and our window is closing. The problem is getting worse, and we as a whole are not acting fast enough. The timetable has gone from a few centuries out, to a few decades out, and if this trend continues, it could turn into a few years out. It's time to <b>wake up</b>.</p>

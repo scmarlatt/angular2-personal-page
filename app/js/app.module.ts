@@ -1,10 +1,10 @@
 import './rxjs-operators';
 
-import { NgModule }      from '@angular/core';
+import { NgModule, Component }      from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule }	 from '@angular/forms';
 import { HttpModule, JsonpModule } from '@angular/http';
-
+import { ComponentOutlet, provideComponentOutletModule } from 'angular2-component-outlet';
 import { AppComponent }  from './components/app.component';
 import { AboutComponent } from './components/about.component';
 import { ListComponent } from './components/list.component';
@@ -28,9 +28,10 @@ import { routing }       from './app.routing';
   				  ListDetailsComponent, 
   				  BlogDetailsComponent,
             LandingComponent,
-            ClimateComponent
+            ClimateComponent,
+            ComponentOutlet
   				 ],
-  providers:	[ ListService, BlogService ], 
+  providers:	[ ListService, BlogService, provideComponentOutletModule({}) ], 
   bootstrap:    [ ScootsPageComponent ]
 })
 export class AppModule { }

@@ -164,6 +164,9 @@ gulp.task('copy:libs', function() {
     'node_modules/systemjs/dist/system-polyfills.js.map'
   ]).pipe(gulp.dest('public/lib/js'));
 
+  gulp.src(['node_modules/angular2-component-outlet/**/*'])
+    .pipe(gulp.dest('public/lib/js/angular2-component-outlet'));
+
   gulp.src([
     'node_modules/bootstrap/dist/css/bootstrap.*'
   ]).pipe(gulp.dest('public/lib/css'));

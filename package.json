@@ -21,6 +21,7 @@
     "@angular/platform-browser-dynamic": "2.0.0",
     "@angular/router": "3.0.0",
     "@angular/upgrade": "2.0.0",
+    "angular2-component-outlet": "^3.0.1",
     "body-parser": "^1.15.2",
     "bootstrap": "3.3.6",
     "colors": "1.1.2",

@@ -59,7 +59,7 @@
 #blog-list-wrapper li {
     display: inline-block;
     *display:inline;/*for IE6 - IE7*/
-    width: calc(25% - 8px);
+    width: calc(50% - 8px);
     vertical-align:middle;
     box-sizing:border-box;
     margin:4px 4px 4px 4px;
@@ -84,13 +84,13 @@
 
 @media (max-width: 9000px) {
     .blog-list-wrapper li {
-        width:calc(25% - 8px);
+        width:calc(50% - 8px);
     }
 }
 
 @media (max-width: 700px) {
     .blog-list-wrapper li {
-        width:calc(33.33% - 8px);
+        width:calc(50% - 8px);
     }
 }
 

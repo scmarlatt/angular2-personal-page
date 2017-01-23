@@ -43,6 +43,7 @@
     "jquery": "2.2.3",
     "live-server": "1.0.0",
     "lodash": "^4.16.4",
+    "pdfjs-dist": "^1.6.471",
     "reflect-metadata": "0.1.2",
     "run-sequence": "1.2.0",
     "rxjs": "5.0.0-beta.12",

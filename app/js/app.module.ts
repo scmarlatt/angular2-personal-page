@@ -11,11 +11,11 @@ import { ListComponent } from './components/list.component';
 import { ListService } from './services/list.service';
 import { ListDetailsComponent } from './components/list-details.component';
 import { LandingComponent } from './components/landing.component';
-import { ClimateComponent } from './components/climate.component';
 import { BlogDetailsComponent } from './components/blog-details.component';
 import { ScootsPageComponent } from './components/scoots-page.component';
 import { BlogComponent } from './components/blog.component';
 import { BlogService } from './services/blog.service';
+import { ResumeComponent } from './components/resume.component';
 
 import { routing }       from './app.routing';
 
@@ -28,8 +28,8 @@ import { routing }       from './app.routing';
   				  ListDetailsComponent, 
   				  BlogDetailsComponent,
             LandingComponent,
-            ClimateComponent,
-            ComponentOutlet
+            ComponentOutlet,
+            ResumeComponent
   				 ],
   providers:	[ ListService, BlogService, provideComponentOutletModule({}) ], 
   bootstrap:    [ ScootsPageComponent ]

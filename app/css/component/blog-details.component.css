@@ -1,6 +1,6 @@
 .blog-details-wrapper{
   width: 80%;
-  margin: 48px auto;
+  margin: 48px auto 0px auto; 
 }
 
 .blog-details-wrapper h2{
@@ -20,4 +20,34 @@
 .blog-details-wrapper p{
   font-size: 18px;
   margin-bottom: 12px;
+}
+
+.blog-details-wrapper .xkcd-text{
+  text-align: center;
+}
+
+.img-cluster-1 img{
+    max-width: 100%;
+    height: auto;
+    margin: auto;
+    justify-content: center;
+}
+
+.img-cluster{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+}
+
+.img-cluster-2 img{
+    max-width: 50%;
+    height: auto;
+    margin: 0px 0px;
+}
+
+.img-cluster-3 img{
+    max-width: 33.33333%;
+    height: auto;
+    margin: 0px 0px;
 }

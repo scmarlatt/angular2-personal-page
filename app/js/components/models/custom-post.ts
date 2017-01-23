@@ -1,4 +1,4 @@
-export class BlogPost{
+export class CustomPost{
 	id: number;
 	title: string;
 	date: string;

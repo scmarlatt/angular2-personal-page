@@ -1,6 +1,6 @@
 import { Component, OnInit }	from '@angular/core';
 import { Router, ActivatedRoute, Params }		from '@angular/router';
-import { BlogPost }	from './models/blog-post';
+import { CustomPost }	from './models/custom-post';
 import { BlogService } from '../services/blog.service';
 import {ComponentOutlet, provideComponentOutletModule} from 'angular2-component-outlet';
 
@@ -15,7 +15,7 @@ import { htmlTemplate }	from '../templates/blog-details.html';
 export class BlogDetailsComponent {
 	aboutMe: string;
 	viewingBlogPost: boolean = false;
-	selectedBlogPost: BlogPost;
+	selectedBlogPost: CustomPost;
 	id: number;
 	context = this;
 

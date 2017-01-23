@@ -1,6 +1,6 @@
 import { Component, OnInit }	from '@angular/core';
 import { Router }		from '@angular/router';
-import { BlogPost }	from './models/blog-post';
+import { CustomPost }	from './models/custom-post';
 import { BlogService } from '../services/blog.service';
 
 import { htmlTemplate }	from '../templates/blog.html';
@@ -14,7 +14,7 @@ import { htmlTemplate }	from '../templates/blog.html';
 
 export class BlogComponent {
 	errorMessage: string;
-	blogPostList: BlogPost[] = [];
+	blogPostList: CustomPost[] = [];
 
 	constructor(
 		private router: Router,
@@ -26,8 +26,8 @@ export class BlogComponent {
 		//this.getBlogFromServer();
 	}
 
-	onSelect(BlogPost): void{
-		this.router.navigate(['/blog', BlogPost.id]);
+	onSelect(CustomPost): void{
+		this.router.navigate(['/blog', CustomPost.id]);
 	};
 	
 	getBlogPostList(): void{

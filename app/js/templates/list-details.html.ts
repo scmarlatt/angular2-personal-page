@@ -4,10 +4,9 @@ export const htmlTemplate = `
 		<nav class="scoot-nav">
 			<a href="list" class="back"><< back</a>
 			<ul class="pull-right">
-				<li><a href="climate">climate</a></li>
 				<li><a href="about">about</a></li>
 				<li><a href="blog">blog</a></li>
-				<li><a href="list">stuff</a></li>
+				<li><a href="resume">resume</a></li>
 			</ul>
 		</nav>
 	</div>

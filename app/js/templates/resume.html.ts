@@ -10,15 +10,10 @@ export const htmlTemplate = `
 		</nav>
 	</div>
 	<div class="row">
-		<ul id="blog-list-wrapper">
-			<li *ngFor="let post of blogPostList" (click)="onSelect(post)">
-				<div class="blog-list-item">
-					<img src="{{post.img}}" class="list-image">
-					<span class="list-overlay"></span>
-					<span class="list-title">{{post.title}}</span>
-				</div>
-			</li>
-		</ul>
+		<div class="container resume-wrapper">
+			<h2>Resume</h2>
+			<object width="100%" height="90%" data="https://s3-us-west-1.amazonaws.com/scm-personal-page/personal-page/files/Resume.pdf"></object>
+		</div>
 	</div>
 </div>
 `;

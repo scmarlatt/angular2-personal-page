@@ -2,7 +2,7 @@ import { Injectable } from '@angular/core';
 import { Http, Response } from '@angular/http';
 import { Observable }     from 'rxjs/Observable';
 
-import { BlogPost } from '../components/models/blog-post';
+import { CustomPost } from '../components/models/custom-post';
 import { BLOGPOSTS } from '../components/models/blog-posts';
 
 @Injectable()
@@ -11,7 +11,7 @@ export class BlogService {
 
 	constructor (private http: Http) {}
 
-	getBlogPosts(): Promise<BlogPost[]> {
+	getBlogPosts(): Promise<CustomPost[]> {
 		console.log("getting blog posts");
 		return Promise.resolve(BLOGPOSTS);
 	}
@@ -20,7 +20,7 @@ export class BlogService {
     	return Promise.resolve(BLOGPOSTS).then(blogPostList => blogPostList.find(selectedBlogPost => selectedBlogPost.id === +id));
 	}
 
-	getBlogFromServer(): Observable<BlogPost> {
+	getBlogFromServer(): Observable<CustomPost> {
 		console.log("requesting server");
     	return this.http.get(this.blogPostInfoUrl)
                     .map(this.extractData)

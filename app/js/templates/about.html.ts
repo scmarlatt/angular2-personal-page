@@ -1,14 +1,6 @@
 export const htmlTemplate = `
 <div class="container">
-	<div class="row global-nav">
-		<nav class="scoot-nav pull-right">
-			<ul>
-				<li><a href="about">about</a></li>
-				<li><a href="blog">blog</a></li>
-				<li><a href="resume">resume</a></li>
-			</ul>
-		</nav>
-	</div>
+	<page-header></page-header>
 	<div class="row">
 		<div class="container about-wrapper">
 			<div class="row">

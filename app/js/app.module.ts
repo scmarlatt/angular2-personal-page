@@ -16,6 +16,7 @@ import { ScootsPageComponent } from './components/scoots-page.component';
 import { BlogComponent } from './components/blog.component';
 import { BlogService } from './services/blog.service';
 import { ResumeComponent } from './components/resume.component';
+import { HeaderComponent } from './components/header.component';
 
 import { routing }       from './app.routing';
 
@@ -29,7 +30,8 @@ import { routing }       from './app.routing';
   				  BlogDetailsComponent,
             LandingComponent,
             ComponentOutlet,
-            ResumeComponent
+            ResumeComponent,
+            HeaderComponent
   				 ],
   providers:	[ ListService, BlogService, provideComponentOutletModule({}) ], 
   bootstrap:    [ ScootsPageComponent ]

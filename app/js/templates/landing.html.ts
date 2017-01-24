@@ -5,7 +5,7 @@ export const htmlTemplate = `
 		<br>
 		<a href="/blog">blog</a>
 		<br>
-		<a href="/resume">resume</a>
+		<a href="https://drive.google.com/open?id=0B2gFy8uyY551X0ljSmpLZzQ2Yjg">resume</a>
 	</nav>
 </div>
 `;

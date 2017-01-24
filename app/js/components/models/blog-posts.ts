@@ -6,7 +6,7 @@ export const BLOGPOSTS: CustomPost[] = [
 	    title: 'past due', 
 	    date: 'Jan. 23, 2017 :: 1:24AM',
     	img:'https://s3-us-west-1.amazonaws.com/scm-personal-page/personal-page/images/blog/11-12-2016/windy-hill.JPG', 
-    	html: ` <h2>Past Due</h2>
+    	html: ` <h2>Past Due</h2><br>
 				<h3>{{selectedBlogPost.date}}</h3>
 				<br>
 				<div class="climate-text">

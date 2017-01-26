@@ -1,6 +1,5 @@
 /*LIST SECTION*/
 .list-image{
-	display:block;
     width: 100%;
     height: auto;
     border:none;
@@ -16,7 +15,7 @@
     bottom: 0;
     right: 0;
     margin: auto;
-    background: #3DC0F1 no-repeat center 20%;
+    background: #3d454c no-repeat center 20%;
     background-size:50px 50px;
     opacity:0;
     filter:alpha(opacity=0);/*For IE6 - IE8*/
@@ -25,19 +24,16 @@
 
 .blog-list-item{
 	display:block;
-    position: relative;
+    position:relative;
     overflow:hidden;
 }
 
 #blog-list-wrapper{
-	font-size: 0;
-	width: 90%;
-	margin: 0 auto;
+    align-content: middle;
 }
 
 .list-title {
     display:block;
-    padding:0 30px;
     box-sizing:border-box;
     position:absolute;
     left:0;
@@ -57,13 +53,11 @@
 }
 
 #blog-list-wrapper li {
-    display: inline-block;
-    *display:inline;/*for IE6 - IE7*/
-    width: calc(50% - 8px);
+    list-style-type: none;
+    height: auto;
+    width: 50%;
     vertical-align:middle;
-    box-sizing:border-box;
-    margin:4px 4px 4px 4px;
-    padding:0;
+    margin:1% 25%;
 }
 
 #blog-list-wrapper li:hover .list-image {
@@ -80,22 +74,4 @@
     transform:translateY(0px);
     opacity:0.9;
     cursor: pointer;
-}
-
-@media (max-width: 9000px) {
-    .blog-list-wrapper li {
-        width:calc(50% - 8px);
-    }
-}
-
-@media (max-width: 700px) {
-    .blog-list-wrapper li {
-        width:calc(50% - 8px);
-    }
-}
-
-@media (max-width: 550px) {
-    .blog-list-wrapper li {
-        width:calc(50% - 8px);
-    }
 }

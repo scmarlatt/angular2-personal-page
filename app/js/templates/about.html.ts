@@ -13,6 +13,8 @@ export const htmlTemplate = `
 					<p>I grew up in Ann Arbor, MI, and in May of 2015, got my B.S. in C.S. from the <a href="http://umich.edu/"><b>University of Michigan</b></a>. Ann Arbor will always hold a special place in my heart. The people, the food, the culture, and the seasons, are all part of who I am today. Moving out to the Bay Area in the fall of 2015 was a big change, but a change that I was ready for, and so far it has been treating me well.</p>
 					<p>Stop by me-myself-and-scoot if you're curious to see what I'm up to, or if you just have any intereset in my two cents. Big plans ahead, but baby steps to get there. <b>Join me!</b>
 					<p><b>contact :: scmarlatt15@gmail</b></p>
+					<p><b>github :: <a href="https://github.com/scmarlatt">scmarlatt</a></b></p>
+					<p><b>photos :: sony a6000 | iphone 7</b></p>
 				</div>
 			</div>
 		</div>

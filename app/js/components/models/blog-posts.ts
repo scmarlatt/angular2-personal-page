@@ -2,6 +2,20 @@ import { CustomPost } from './custom-post';
 
 export const BLOGPOSTS: CustomPost[] = [
 	{
+		id: 2, 
+	    title: 'there & back', 
+	    date: 'Jan. 25, 2017 :: 1:45AM', 
+    	img: 'https://s3-us-west-1.amazonaws.com/scm-personal-page/personal-page/images/blog/25-1-2017/DSC02896.jpg', 
+    	html: ` <h2>There & Back</h2><br>
+				<h3>{{selectedBlogPost.date}}</h3>
+				<br>
+				<div class="climate-text">
+					<p>What a trip that was.</p>
+					<br>
+					<p>Coming soon.</p>
+				</div>`
+	}, 
+	{
 		id: 1, 
 	    title: 'past due', 
 	    date: 'Jan. 23, 2017 :: 1:24AM',

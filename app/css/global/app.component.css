@@ -4,6 +4,10 @@ body{
   /*color: #333;*/
 }
 
+ul{
+  padding: 0;
+}
+
 a, a:visited{
   text-decoration: none;
   color: #1a002e;

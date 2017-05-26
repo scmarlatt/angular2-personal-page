@@ -1,3 +1,9 @@
+.blog-wrapper{
+    width: 80%;
+    margin: 0 auto 10% auto;
+    padding: 0;
+}
+
 /*LIST SECTION*/
 .list-image{
     width: 100%;
@@ -28,7 +34,7 @@
     overflow:hidden;
 }
 
-#blog-list-wrapper{
+#blog-inner{
     align-content: middle;
 }
 
@@ -52,7 +58,7 @@
     transition:all .3s;
 }
 
-#blog-list-wrapper li {
+#blog-inner li {
     list-style-type: none;
     height: auto;
     width: 50%;
@@ -60,17 +66,17 @@
     margin:1% 25%;
 }
 
-#blog-list-wrapper li:hover .list-image {
+#blog-inner li:hover .list-image {
     transform:scale(1.05);
     cursor: pointer;
 }
 
-#blog-list-wrapper li:hover .list-overlay {
+#blog-inner li:hover .list-overlay {
     opacity:0.5;
     cursor: pointer;    
 }
 
-#blog-list-wrapper li:hover .list-title {
+#blog-inner li:hover .list-title {
     transform:translateY(0px);
     opacity:0.9;
     cursor: pointer;

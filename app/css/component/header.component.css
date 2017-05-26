@@ -1,0 +1,39 @@
+.scoot-about{
+	font-size:72px;
+	font-weight: bolder;
+}
+
+.scoot-header-break{
+	background-color: #1a002e;
+	height: 10px;
+}
+
+.scoot-title{
+	font-size: 60px;
+	color: #1a002e;
+	font-weight: bolder;
+}
+
+.global-nav{
+	height: 20vh;
+  	margin-bottom: 4em;
+}
+
+.scoot-nav{
+  margin-top: 10px;
+}
+
+.scoot-nav li{
+  color: #1a002e;
+  display: inline;
+  font-size: 1.2em;
+  margin: 0px 10px 0px 10px;
+}
+
+@media screen and (min-width: 540px) {
+	
+}
+
+@media screen and (max-width: 540px) {
+
+}

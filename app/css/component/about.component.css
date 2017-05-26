@@ -1,6 +1,7 @@
 .about-wrapper{
 	width: 80%;
-    margin: 48px auto 0px auto;  
+    margin: 0 auto 10% auto;
+    padding: 0;
 }
 /*
 .about-wrapper a:link, a:visited {
@@ -14,14 +15,23 @@
 }
 */
 
-.about-wrapper h2{
+.about-inner h2{
     display: inline-block;
 	font-size: 6.85em;
 	font-weight: bold;
 	text-align: left;
 }
 
-.about-wrapper img{
+@media screen and (max-width: 540px) {
+    .about-inner h2{
+        display: inline-block;
+        font-size: 4em;
+        font-weight: bold;
+        text-align: left;
+    }
+}
+
+.about-inner img{
     float: right;
     border-radius: 50%;
     max-width: 35%;

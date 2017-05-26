@@ -5,7 +5,7 @@ import { htmlTemplate }	from '../templates/details-header.html';
 
 @Component({
 	selector: 'details-header',
-	styleUrls: ['dist/css/component/details-header.component.css'],
+	styleUrls: ['dist/css/component/header.component.css'],
 	template: htmlTemplate,
 })
 

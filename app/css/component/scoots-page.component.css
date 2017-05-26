@@ -1,19 +1,4 @@
 /*MAIN SECTION*/
-.scoot-about{
-	font-size:72px;
-	font-weight: bolder;
-}
-
-.scoot-header-break{
-	background-color: #1a002e;
-	height: 10px;
-}
-
-.scoot-title{
-	font-size: 60px;
-	color: #1a002e;
-	font-weight: bolder;
-}
 
 .routing-wrapper{
 	padding-bottom: 10%;

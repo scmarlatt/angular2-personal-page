@@ -1,6 +1,7 @@
 .blog-details-wrapper{
-  width: 80%;
-  margin: 48px auto 0px auto; 
+    width: 80%;
+    margin: 0 auto 10% auto;
+    padding: 0; 
 }
 
 .blog-details-wrapper h2{
@@ -24,6 +25,10 @@
 
 .blog-details-wrapper .xkcd-text{
   text-align: center;
+}
+
+.blog-details-inner{
+  width: 100%;
 }
 
 .img-cluster-1 img{

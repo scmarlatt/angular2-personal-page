@@ -1,8 +1,7 @@
 export const htmlTemplate = `
-<div class="container">
+<div class="blog-details-wrapper">
 	<details-header></details-header>
-	<br>
-	<div class="row blog-details-wrapper">
+	<div class="blog-details-inner">
   		<ng-container *componentOutlet="selectedBlogPost.html; context: context"></ng-container>
 	</div>
 </div>

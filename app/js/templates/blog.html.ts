@@ -1,7 +1,7 @@
 export const htmlTemplate = `
-<div class="container-fluid">
+<div class="blog-wrapper">
 	<page-header></page-header>
-	<ul id="blog-list-wrapper">
+	<ul id="blog-inner">
 		<li *ngFor="let post of blogPostList" (click)="onSelect(post)">
 			<div class="blog-list-item">
 				<img src="{{post.img}}" class="list-image">

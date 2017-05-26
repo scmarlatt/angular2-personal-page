@@ -1,23 +1,46 @@
-.landing-nav{
+.landing-container-top{
+	width: 100%;
+	height: 50%;
+	padding: 32vh 0 0 0;
+	background-color: #ffffff;
 	text-align: center;
-	padding-top: 48px;
-	padding-bottom: 48px;
-	margin: auto;
 }
 
-.landing-nav a{
-	font-size: 96px;
-	font-weight: bold;
+.landing-container-bottom{
+	width: 100%;
+	height: 50%;
+	padding: 0 0 30vh 0;
+	background-color: #1a002e;
+	text-align: center;
+}
+
+.landing-container-top a{
+	text-align: center;
+	font-size: 6em;
 	color: #1a002e;
-	margin-top: 24px;
-	margin-bottom: 24px;
 }
 
-.landing-nav a:link, a:visited {
+.landing-container-bottom a{
+	text-align: center;
+	font-size: 6em;
+	color: #ffffff;
+}
+
+.landing-container-top a:link, a:visited {
     color: #1a002e;
 }
 
-.landing-nav a:hover{
+.landing-container-top a:hover{
+    color: #a0a4b6;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.landing-container-bottom a:link, a:visited {
+    color: #1a002e;
+}
+
+.landing-container-bottom a:hover{
     color: #a0a4b6;
     text-decoration: none;
     cursor: pointer;

@@ -1,11 +1,13 @@
 export const htmlTemplate = `
-<div class="row global-nav">
+<div class="global-nav">
+	<span class="scoot-title"><a href="">scott.marlatt</a></span>
+	<div class="scoot-header-break"></div>
 	<nav class="scoot-nav">
 		<a href="blog" class="back"><< back</a>
 		<ul class="pull-right">
 			<li><a href="about">about</a></li>
 			<li><a href="blog">blog</a></li>
-			<li><a href="https://drive.google.com/open?id=0B2gFy8uyY551X0ljSmpLZzQ2Yjg">resume</a></li>
+			<li><a href="https://drive.google.com/file/d/0B2gFy8uyY551VGZuTGZqQzNhOEk/view?usp=sharing" target="_blank">resume</a></li>
 		</ul>
 	</nav>
 </div>

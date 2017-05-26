@@ -223,11 +223,21 @@ gulp.task('copy', function(callback) {
 gulp.task('scripts', function(callback) {
   runSequence(['lint:ts', 'clean:dist:js'], 'compile:ts', 'bundle:js', 'minify:js', callback);
 });
+gulp.task('scripts:dev', function(callback) {
+  runSequence(['lint:ts', 'clean:dist:js'], 'compile:ts', 'bundle:js', callback);
+});
 gulp.task('styles', function(callback) {
   runSequence(['lint:sass', 'clean:dist:css'], ['compile:sass', 'minify:css'], callback);
 });
 gulp.task('build', function(callback) {
   runSequence('copy', 'scripts', 'styles', callback);
+});
+gulp.task('build:dev', function(callback) {
+  runSequence('copy', 'scripts:dev', 'styles', callback);
+});
+
+gulp.task('dev', function(callback) {
+  runSequence('build:dev', 'serve', callback);
 });
 
 gulp.task('default', function(callback) {

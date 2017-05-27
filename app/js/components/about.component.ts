@@ -1,6 +1,5 @@
-import { Component, OnInit }	from '@angular/core';
-import { Router }		from '@angular/router';
-
+import { Component } from '@angular/core';
+import { Router } from '@angular/router';
 import { htmlTemplate }	from '../templates/about.html';
 
 @Component({
@@ -15,7 +14,6 @@ export class AboutComponent {
 	constructor(
 		private router: Router) {
 	}
-
 	/*
 	getPostList(): void {
 		this.blogService.getPosts().then(blogPostList => this.wantList = wantList);
@@ -27,6 +25,4 @@ export class AboutComponent {
 		this.blogService.getPostData(id).then(blogData =? this.data = postData);
 	}
 	*/
-
-	
 }

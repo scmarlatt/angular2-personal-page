@@ -1,8 +1,7 @@
-import { Component, OnInit }	from '@angular/core';
-import { Router }		from '@angular/router';
+import { Component } from '@angular/core';
+import { Router } from '@angular/router';
 import { ListPost }	from './models/list-post';
 import { ListService } from '../services/list.service';
-
 import { htmlTemplate }	from '../templates/list.html';
 
 @Component({
@@ -22,18 +21,17 @@ export class ListComponent {
 		private listService: ListService) {
 	}
 
-	onSelect(ListPost): void{
+	onSelect(ListPost): void {
 		this.router.navigate(['/list', ListPost.id]);
 	};
-
 	ngOnInit(): void {
 		this.getList();
-	}
-
+	};
 	getList(): void {
-		this.listService.getPosts().then(wantList => this.wantList = wantList);
-	}
-
+		this.listService.getPosts().then((wantList) => {
+			this.wantList = wantList;
+		});
+	};
 	/*
 	getPostList(): void {
 		this.blogService.getPosts().then(blogPostList => this.wantList = wantList);
@@ -45,6 +43,4 @@ export class ListComponent {
 		this.blogService.getPostData(id).then(blogData =? this.data = postData);
 	}
 	*/
-
-	
 }

@@ -1,4 +1,4 @@
-import { Component, OnInit }	from '@angular/core';
+import { Component/*, OnInit*/ }	from '@angular/core';
 import { Router }		from '@angular/router';
 import { CustomPost }	from './models/custom-post';
 import { BlogService } from '../services/blog.service';
@@ -21,28 +21,24 @@ export class BlogComponent {
 		private blogService: BlogService) {
 	}
 
-	ngOnInit(): void{
+	ngOnInit(): void {
 		this.getBlogPostList();
-		//this.getBlogFromServer();
+		// this.getBlogFromServer();
 	}
-
-	onSelect(CustomPost): void{
+	onSelect(CustomPost): void {
 		this.router.navigate(['/blog', CustomPost.id]);
 	};
-	
-	getBlogPostList(): void{
+	getBlogPostList(): void {
 		this.blogService.getBlogPosts().then(blogPostList => this.blogPostList = blogPostList);
 	}
-
-	getBlogFromServer(): void{
+	getBlogFromServer(): void {
 		this.blogService.getBlogFromServer().subscribe(
-                       blogPost  => this.blogPostList.push(blogPost),
-                       error =>  this.errorMessage = <any>error);
+                       blogPost => this.blogPostList.push(blogPost),
+                       error => this.errorMessage = <any>error);
 	}
-	
 	/*
 	getPostDetails(selectedItem: blogPostId): void {
 		this.blogService.getPostData(id).then(blogData =? this.data = postData);
 	}
-	*/	
+	*/
 }

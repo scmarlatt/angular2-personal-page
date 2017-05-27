@@ -2,24 +2,21 @@ import { CustomPost } from './custom-post';
 
 export const BLOGPOSTS: CustomPost[] = [
 	{
-		id: 2, 
-	    title: 'there & back', 
-	    date: 'Jan. 25, 2017 :: 1:45AM', 
-    	img: 'https://s3-us-west-1.amazonaws.com/scm-personal-page/personal-page/images/blog/25-1-2017/DSC02896.jpg', 
-    	html: ` <h2>There & Back</h2><br>
+	    date: 'Apr. 2, 2017 :: 11:22PM',
+    	html: ` <h2>Something Clever</h2><br>
 				<h3>{{selectedBlogPost.date}}</h3>
 				<br>
 				<div class="climate-text">
-					<p>What a trip that was.</p>
+					<p>Hey everyone! First and foremost, thanks for reading. I'm not really sure how long I'll keep this up for, but it's been something I've been meaning to work on for a while, so here's me taking a crack at it.</p>
 					<br>
-					<p>Coming soon.</p>
-				</div>`
-	}, 
+					<p>Where do I even begin? If you're wondering what's</p>
+				</div>`,
+	    id: 2,
+    	img: 'https://s3-us-west-1.amazonaws.com/scm-personal-page/personal-page/images/blog/25-1-2017/DSC02896.jpg',
+    	title: 'there & back',
+	},
 	{
-		id: 1, 
-	    title: 'past due', 
 	    date: 'Jan. 23, 2017 :: 1:24AM',
-    	img:'https://s3-us-west-1.amazonaws.com/scm-personal-page/personal-page/images/blog/11-12-2016/windy-hill.JPG', 
     	html: ` <h2>Past Due</h2><br>
 				<h3>{{selectedBlogPost.date}}</h3>
 				<br>
@@ -35,13 +32,13 @@ export const BLOGPOSTS: CustomPost[] = [
 					</div>
 					<br>
 					<p class="xkcd-text">"[After setting your car on fire] Listen, your car's temperature has changed before."</p>
-				</div>`
+				</div>`,
+		id: 1,
+    	img: 'https://s3-us-west-1.amazonaws.com/scm-personal-page/personal-page/images/blog/11-12-2016/windy-hill.JPG',
+	    title: 'past due',
 	},
 	{
-		id: 0, 
-	    title: 'winding down', 
 	    date: 'Oct. 29, 2016 :: 9:09PM',
-    	img:'https://s3-us-west-1.amazonaws.com/scm-personal-page/personal-page/images/blog/castro-sunset.jpg', 
     	html: `<h2>Winding Down</h2><br>
 				<h3>{{selectedBlogPost.date}}</h3><br>
 				<p><b>what a summer it was</b></p>
@@ -51,6 +48,9 @@ export const BLOGPOSTS: CustomPost[] = [
 				<div class="img-cluster-3"><img src="https://s3-us-west-1.amazonaws.com/scm-personal-page/personal-page/images/blog/11-12-2016/almond-butter.jpg"><img src="https://s3-us-west-1.amazonaws.com/scm-personal-page/personal-page/images/blog/11-12-2016/chocolate-sourdough.jpg"><img src="https://s3-us-west-1.amazonaws.com/scm-personal-page/personal-page/images/blog/11-12-2016/farmers-market.JPG"></div>
 				<br>
 				<div class="img-cluster-2"><img src="https://s3-us-west-1.amazonaws.com/scm-personal-page/personal-page/images/blog/11-12-2016/chocolate-sourdough.jpg"><img src="https://s3-us-west-1.amazonaws.com/scm-personal-page/personal-page/images/blog/11-12-2016/farmers-market.JPG"></div>
-				<p>sample sample sample sample sample sample sample sample sample sample sample sample sample sample sample sample sample sample sample sample sample sample sample sample sample sample sample sample </p>`
-	}
+				<p>sample sample sample sample sample sample sample sample sample sample sample sample sample sample sample sample sample sample sample sample sample sample sample sample sample sample sample sample </p>`,
+	    id: 0,
+    	img: 'https://s3-us-west-1.amazonaws.com/scm-personal-page/personal-page/images/blog/castro-sunset.jpg',
+    	title: 'winding down',
+	},
 ];

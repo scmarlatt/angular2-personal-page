@@ -1,47 +1,42 @@
 import { Routes, RouterModule } from '@angular/router';
-import { ScootsPageComponent }	from './components/scoots-page.component';
+// import { ScootsPageComponent }	from './components/scoots-page.component';
 import { BlogComponent }	from './components/blog.component';
 import { BlogDetailsComponent }	from './components/blog-details.component';
 import { AboutComponent }	from './components/about.component';
 import { ListComponent }	from './components/list.component';
 import { ListDetailsComponent }	from './components/list-details.component';
 import { LandingComponent }	from './components/landing.component';
-import { ResumeComponent }	from './components/resume.component';
 
 const appRoutes: Routes = [
 	{
+		component: LandingComponent, // replace this later with landing block
 		path: 'scoot',
-		component: LandingComponent //replace this later with landing block
 	},
 	{
+		component: ListComponent,
 		path: 'list',
-		component: ListComponent
 	},
 	{
+		component: AboutComponent,
 		path: 'about',
-		component: AboutComponent
 	},
 	{
+		component: BlogComponent,
 		path: 'blog',
-		component: BlogComponent
 	},
 	{
+		component: BlogDetailsComponent,
 		path: 'blog/:id',
-		component: BlogDetailsComponent
 	},
 	{
+		component: ListDetailsComponent,
 		path: 'list/:id',
-		component: ListDetailsComponent
-	},
-	{
-		path: 'resume',
-		component: ResumeComponent
 	},
 	{
 		path: '',
+		pathMatch: 'full',
 		redirectTo: 'scoot',
-		pathMatch: 'full'
-	}
+	},
 ];
 
 export const routing = RouterModule.forRoot(appRoutes);

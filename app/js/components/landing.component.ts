@@ -1,6 +1,5 @@
-import { Component, OnInit }	from '@angular/core';
-import { Router }		from '@angular/router';
-
+import { Component } from '@angular/core';
+import { Router } from '@angular/router';
 import { htmlTemplate }	from '../templates/landing.html';
 
 @Component({
@@ -16,10 +15,9 @@ export class LandingComponent {
 		private router: Router) {
 	}
 
-	onSelect(item): void{
+	onSelect(item): void {
 		this.router.navigate([item + '/']);
 	};
-
 	/*
 	ngOnInit(): void {
 	}

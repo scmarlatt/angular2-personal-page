@@ -4,8 +4,8 @@ import { Component } from '@angular/core';
 	selector: 'my-app',
 	styleUrls: ['dist/css/component/app.component.css'],
 	template: `
-   			  <router-outlet></router-outlet>
-			  `
+       			  <router-outlet></router-outlet>
+    			  `,
 })
 
 export class AppComponent {
@@ -14,7 +14,7 @@ export class AppComponent {
 
 /*
 <nav>
-			     <a routerLink="/dashboard">Dashboard</a>
-			     <a routerLink="/scoots">Scoots</a>
-			  </nav>
+ <a routerLink="/dashboard">Dashboard</a>
+ <a routerLink="/scoots">Scoots</a>
+</nav>
 			  */

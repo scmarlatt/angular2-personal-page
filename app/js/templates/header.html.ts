@@ -6,12 +6,11 @@ export const htmlTemplate = `
 		<ul class="pull-right">
 			<li><a href="about">about</a></li>
 			<li><a href="blog">blog</a></li>
-			<li><a href="https://drive.google.com/file/d/0B2gFy8uyY551VGZuTGZqQzNhOEk/view?usp=sharing" target="_blank">resume</a></li>
+			<li><a href="https://drive.google.com/file/d/0B2gFy8uyY551bTRkbHJsQjUya0k/view?usp=sharing" target="_blank">resume</a></li>
 		</ul>
 	</nav>
 </div>
 `;
-
 // <div class="row">
 // 	<div class=".col-lg-4 pull-right">
 // 		<span class="scoot-title"><a href="">scott.marlatt</a></span> <!-- release . Major Front End change . Major Code change . Minor Chage -->

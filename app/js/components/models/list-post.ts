@@ -1,4 +1,4 @@
-export class ListPost{
+export class ListPost {
 	id: number;
 	title: string;
 	date: string;

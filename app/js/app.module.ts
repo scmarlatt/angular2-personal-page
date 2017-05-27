@@ -1,11 +1,10 @@
 import './rxjs-operators';
-
-import { NgModule, Component }      from '@angular/core';
+import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { FormsModule }	 from '@angular/forms';
+import { FormsModule } from '@angular/forms';
 import { HttpModule, JsonpModule } from '@angular/http';
 import { ComponentOutlet, provideComponentOutletModule } from 'angular2-component-outlet';
-import { AppComponent }  from './components/app.component';
+// import { AppComponent } from './components/app.component';
 import { AboutComponent } from './components/about.component';
 import { ListComponent } from './components/list.component';
 import { ListService } from './services/list.service';
@@ -15,27 +14,24 @@ import { BlogDetailsComponent } from './components/blog-details.component';
 import { ScootsPageComponent } from './components/scoots-page.component';
 import { BlogComponent } from './components/blog.component';
 import { BlogService } from './services/blog.service';
-import { ResumeComponent } from './components/resume.component';
 import { HeaderComponent } from './components/header.component';
 import { DetailsHeaderComponent } from './components/details-header.component';
-
-import { routing }       from './app.routing';
+import { routing } from './app.routing';
 
 @NgModule({
-  imports:      [ BrowserModule, FormsModule, routing, HttpModule, JsonpModule ],
-  declarations: [ AboutComponent, 
-  				  ScootsPageComponent, 
-  				  BlogComponent, 
-  				  ListComponent, 
-  				  ListDetailsComponent, 
-  				  BlogDetailsComponent,
-            LandingComponent,
-            ComponentOutlet,
-            ResumeComponent,
-            HeaderComponent,
-            DetailsHeaderComponent
-  				 ],
-  providers:	[ ListService, BlogService, provideComponentOutletModule({}) ], 
-  bootstrap:    [ ScootsPageComponent ]
+  bootstrap: [ ScootsPageComponent ],
+  declarations: [ AboutComponent,
+                  ScootsPageComponent,
+                  BlogComponent,
+                  ListComponent,
+                  ListDetailsComponent,
+                  BlogDetailsComponent,
+                  LandingComponent,
+                  ComponentOutlet,
+                  HeaderComponent,
+                  DetailsHeaderComponent,
+                ],
+  imports: [ BrowserModule, FormsModule, routing, HttpModule, JsonpModule ],
+  providers: [ ListService, BlogService, provideComponentOutletModule({}) ],
 })
 export class AppModule { }

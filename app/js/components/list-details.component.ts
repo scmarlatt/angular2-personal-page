@@ -1,8 +1,7 @@
-import { Component, OnInit }	from '@angular/core';
-import { Router, ActivatedRoute, Params }		from '@angular/router';
+import { Component } from '@angular/core';
+import { Router, ActivatedRoute, Params } from '@angular/router';
 import { ListPost }	from './models/list-post';
 import { ListService } from '../services/list.service';
-
 import { htmlTemplate }	from '../templates/list-details.html';
 
 @Component({
@@ -26,20 +25,19 @@ export class ListDetailsComponent {
 
 	ngOnInit(): void {
 		this.selectedListItem = {
-			id: -1,
-			title: "",
-			date: "",
-			img: "",
 			body: "",
+			date: "",
+			id: -1,
+			img: "",
+			price: "",
+			title: "",
 			url: "",
-			price: ""
 		};
 		this.route.params.forEach((params: Params) => {
 			this.id = +params['id']; // (+) converts string 'id' to a number
 			this.listService.getPostById(this.id).then(selectedListItem => this.selectedListItem = selectedListItem);
 		});
 	}
-
 	/*
 	getPostList(): void {
 		this.blogService.getPosts().then(blogPostList => this.wantList = wantList);
@@ -51,6 +49,4 @@ export class ListDetailsComponent {
 		this.blogService.getPostData(id).then(blogData =? this.data = postData);
 	}
 	*/
-
-	
 }

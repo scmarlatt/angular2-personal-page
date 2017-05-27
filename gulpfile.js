@@ -14,7 +14,6 @@ const tslint = require('gulp-tslint');
 const tsc = require('gulp-typescript');
 const uglify = require('gulp-uglify');
 const tsconfig = require('tsconfig-glob');
-
 const tscConfig = require('./tsconfig.json');
 
 // Clean the js distribution directory

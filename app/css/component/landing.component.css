@@ -15,18 +15,21 @@
 }
 
 .landing-container-top a{
+	text-decoration: none;
 	text-align: center;
 	font-size: 6em;
 	color: #1a002e;
 }
 
 .landing-container-bottom a{
+	text-decoration: none;
 	text-align: center;
 	font-size: 6em;
 	color: #ffffff;
 }
 
 .landing-container-top a:link, a:visited {
+	text-decoration: none;
     color: #1a002e;
 }
 
@@ -37,7 +40,8 @@
 }
 
 .landing-container-bottom a:link, a:visited {
-    color: #1a002e;
+	text-decoration: none;
+    color: #ffffff;
 }
 
 .landing-container-bottom a:hover{

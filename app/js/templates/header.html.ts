@@ -1,6 +1,6 @@
 export const htmlTemplate = `
 <div class="global-nav">
-	<span class="scoot-title"><a href="">scott.marlatt</a></span>
+	<div class="scoot-title"><a href="">scott.marlatt</a></div>
 	<div class="scoot-header-break"></div>
 	<nav class="scoot-nav">
 		<ul class="pull-right">

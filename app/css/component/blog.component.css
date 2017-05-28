@@ -81,3 +81,13 @@
     opacity:0.9;
     cursor: pointer;
 }
+
+@media screen and (max-width: 540px) {
+    #blog-inner li {
+        list-style-type: none;
+        height: auto;
+        width: 80%;
+        vertical-align:middle;
+        margin:1% 10%;
+    }
+}

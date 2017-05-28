@@ -200,7 +200,7 @@ gulp.task('tsconfig-glob', function () {
 // Watch src files for changes, then trigger recompilation
 gulp.task('watch:app', function() {
   gulp.watch('app/**/*.ts', ['scripts']);
-  gulp.watch('app/**/*.scss', ['styles']);
+  gulp.watch(['app/**/*.scss', 'app/**/*.css'], ['styles']);
 });
 
 // Run Express, auto rebuild and restart on src changes

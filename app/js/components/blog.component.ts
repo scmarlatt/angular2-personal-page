@@ -1,10 +1,8 @@
-import { Component/*, OnInit*/ }	from '@angular/core';
-import { Router }		from '@angular/router';
-import { CustomPost }	from './models/custom-post';
+import { Component/*, OnInit*/ } from '@angular/core';
+import { Router } from '@angular/router';
+import { CustomPost } from './models/custom-post';
 import { BlogService } from '../services/blog.service';
-
 import { htmlTemplate }	from '../templates/blog.html';
-
 
 @Component({
 	selector: 'blog-landing',

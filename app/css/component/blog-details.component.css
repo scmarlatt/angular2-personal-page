@@ -56,3 +56,19 @@
     height: auto;
     margin: 0px 0px;
 }
+
+@media screen and (max-width: 540px) {
+  .blog-details-wrapper h2{
+    display: inline-block;
+    font-size: 3.5em;
+    font-weight: bold;
+    text-align: left;
+  }
+
+  .blog-details-wrapper h3{
+    display: inline-block;
+    font-size: 2em;
+    font-weight: bold;
+    text-align: left;
+  }
+}

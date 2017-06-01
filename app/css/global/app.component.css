@@ -58,6 +58,16 @@ h2 {
   font-size: 18px;
 }
 
+@media screen and (max-width: 540px) {
+  h2 {
+    font-size: 3em;
+  }
+
+  h3 {
+    font-size: 2.5em;
+  }
+}
+
 
 
 /*

@@ -3,7 +3,7 @@ import { CustomPost } from './custom-post';
 export const BLOGPOSTS: CustomPost[] = [
 	{
 	    date: 'May 31, 2017 :: 6:30PM',
-    	html: ` <h2>Yooooo</h2><br>
+    	html: ` <h2>{{selectedBlogPost.title}}</h2><br>
 				<h3>{{selectedBlogPost.date}}</h3>
 				<br>
 				<div>
@@ -30,7 +30,7 @@ export const BLOGPOSTS: CustomPost[] = [
 				</div>`,
 	    id: 2,
     	img: 'https://s3-us-west-1.amazonaws.com/scm-personal-page/personal-page/images/blog/25-1-2017/DSC02896.jpg',
-    	title: 'there & back',
+    	title: 'Yooooo!',
 	},
 	// {
 	//     date: 'Jan. 23, 2017 :: 1:24AM',

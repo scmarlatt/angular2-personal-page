@@ -72,3 +72,11 @@
     text-align: left;
   }
 }
+
+@media screen and (min-width: 1600px) {
+  .blog-details-wrapper{
+      width: 60%;
+      margin: 0 auto 20% auto;
+      padding: 0; 
+  }
+}
